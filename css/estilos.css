@@ -37,9 +37,9 @@ main {
     /* width: 100%; */
 }
 
-header a {
-    margin: 1.2rem;
-}
+/* header a { */
+    /* margin: 1.2rem; */
+/* } */
 
 .logo {
     height: 90px;
@@ -61,8 +61,8 @@ header a {
 }
 
 #contacto {
-    min-height: 100vh;
-    margin-top: 15rem;
+    min-height: 50vh;
+    /* margin-top: 15rem; */
     padding-top: 90px;
 }
 
@@ -70,13 +70,13 @@ header a {
     background-color: #fbfbfb;
     height: 70px;
     width: 70px;
-    margin: 1.5rem;
+    margin: 5%;
     margin-top: 6rem;
 }
 
 .foto-perfil {
     display: block;
-    width: 400px;
+    width: 90%;
     border-radius: 50%;
     margin: 2rem 0 2rem;
     box-shadow: 5px 0 10px rgba(0, 0, 0, 0.3);
@@ -166,6 +166,7 @@ footer {
     align-items: center;
     justify-content: center;
     font-weight: bold;
+    margin-top: 8rem;
 }
 
 @media(min-width:1024px) {
@@ -179,6 +180,19 @@ footer {
         font-size: 32px;
     }
 
+    .foto-perfil {
+        display: block;
+        width: 40%;
+        border-radius: 50%;
+        margin: 2rem 0 2rem;
+        box-shadow: 5px 0 10px rgba(0, 0, 0, 0.3);
+        /* width: 100%; */
+        justify-content: center;
+    }
+
+    header a {
+    margin: 1.2rem;
+}
     #inicio {
         flex-direction: row;
     }
@@ -194,5 +208,10 @@ footer {
 
     #contacto {
         min-height: 10vh;
+        margin-top: 15rem;
+    }
+
+    footer{
+        margin-top: 0em;
     }
 }
